@@ -27,7 +27,7 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        {this.state.count} steps
+        {this.state.count} cookies
         <div>
           <button type="button" onClick={this.addCount}>+ Add</button>
           <button type="button" onClick={this.minusCount}>- Minus</button>
